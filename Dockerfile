@@ -6,6 +6,6 @@ EXPOSE 8080
 
 VOLUME /tmp
 
-ADD build/libs/NotesApplication-0.0.1-SNAPSHOT.jar notes-application.jarr
+ADD build/libs/NotesApplication-0.0.1-SNAPSHOT.jar notes-application.jar
 
 ENTRYPOINT ["java","-jar","/notes-application.jar"]
